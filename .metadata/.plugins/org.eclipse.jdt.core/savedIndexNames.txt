@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+C:\Users\fonte\Desktop\Programação\Cursos Udemy\Logica e algoritmos de programação\Linguagem Java\.metadata\.plugins\org.eclipse.jdt.core
+1710120918.index
+2508929818.index
+2669642169.index
+4249479871.index
+794437766.index
+1749278199.index
+1865797976.index
