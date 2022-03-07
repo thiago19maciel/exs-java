@@ -1,0 +1,31 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+//Preço unitário do produto: 8.00
+//Quantidade comprada: 2
+//Dinheiro recebido: 20.00
+//TROCO = 4.00 
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		double preco, total, dinheiro, troco;
+		int qtd;
+		
+		System.out.print("Preco unitario do produto: ");
+		preco = sc.nextDouble();
+		System.out.print("Quantidade comprada: ");
+		qtd = sc.nextInt();
+		total = preco * qtd
+		System.out.print("Dinheiro recebido: ");
+		dinheiro = sc.nextDouble();
+		troco = dinheiro - total;
+		System.out.println("TROCO = " + String.format("%.2f", troco));
+
+	}
+
+}

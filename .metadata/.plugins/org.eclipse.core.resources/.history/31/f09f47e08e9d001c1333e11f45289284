@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int ordem,qtd_negativos;
+		System.out.print("Qual a ordem da matriz? ");
+		ordem = sc.nextInt();
+		int [][] matriz = new int[ordem][ordem];
+		for (int i = 0; i < ordem; i++) {
+			for (int j = 0; j < ordem; j++) {
+				System.out.print("Elemento [" + i + "]" + "[" + j + "]: ");
+				matriz[i][j] = sc.nextInt();
+			}
+		}
+		
+		System.out.println("DIAGONAL PRINCIPAL: ");
+		for (int i = 0; i < ordem; i++) {
+			for (int j = 0; j < ordem; j++) {
+				if (i==j) {
+					System.out.println(String.format("%.1f ", matriz[i][j]));
+				}
+			}
+		}
+		
+		
+	}
+
+}

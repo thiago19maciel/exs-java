@@ -1,0 +1,30 @@
+//Digite a largura do terreno: 10.0
+//Digite o comprimento do terreno: 30.0
+//Digite o valor do metro quadrado: 200.00
+//Area do terreno = 300.00
+//Preco do terreno = 60000.00
+import java.util.Scanner;
+import java.util.Locale;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		double larg,compr,valmetro,area,preco;
+		System.out.print("Digite a largura do terreno: ");
+		larg = sc.nextDouble();
+		System.out.print("Digite o comprimento do terreno: ");
+		compr = sc.nextDouble();
+		System.out.print("Digite o valor do metro quadrado: ");
+		valmetro = sc.nextDouble();
+		
+		area = larg * compr;
+		preco = valmetro * area;
+		System.out.println("Area do terreno = " + String.format("%.2f", area));
+		System.out.println("Preco do terreno = " + String.format("%.2f", preco));
+
+	}
+
+}
