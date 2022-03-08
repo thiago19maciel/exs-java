@@ -22,7 +22,7 @@ public class Main {
 			n2 = sc.nextInt();
 		}
 		System.out.println("Fim");
-
+		sc.close();
 	}
 
 }

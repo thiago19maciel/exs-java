@@ -26,8 +26,7 @@ public class Main {
 		}
 		
 		System.out.println("SOMA DOS IMPARES: " + soma);
-		
-		
+		sc.close();
 	}
 
 }
