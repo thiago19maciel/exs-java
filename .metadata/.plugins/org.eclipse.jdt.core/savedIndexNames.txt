@@ -1,6 +1,7 @@
 INDEX VERSION 1.131+C:\Users\fonte\Desktop\Programação\Cursos Udemy\Logica e algoritmos de programação\Linguagem Java\.metadata\.plugins\org.eclipse.jdt.core
 794437766.index
 1865797976.index
+1434554439.index
 2753322590.index
 3917732669.index
 4249479871.index
@@ -9,7 +10,9 @@ INDEX VERSION 1.131+C:\Users\fonte\Desktop\Programação\Cursos Udemy\Logica e alg
 1735066649.index
 3493286310.index
 2669642169.index
+3897900102.index
 3315405377.index
+2651527325.index
 1749278199.index
 2823121302.index
 2794730480.index
