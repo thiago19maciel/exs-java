@@ -24,14 +24,3 @@ public class Main {
 
 
 }
-
-//Hora inicial: 16 
-//Hora final: 2
-//O JOGO DUROU 10 HORA(S) 
-//Hora inicial: 0 
-//Hora final: 0
-//O JOGO DUROU 24 HORA(S) 
-//Exemplo 3: 
-//Hora inicial: 2 
-//Hora final: 16
-//O JOGO DUROU 14 HORA(S)
